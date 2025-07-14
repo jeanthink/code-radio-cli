@@ -19,7 +19,7 @@ path = "src/main.rs"
 
 [dependencies]
 tokio-tungstenite = { version = "0.17.1", features = ["native-tls"] }
-tokio = { version = "1.17.0", features = ["full"] }
+tokio = { version = "1.25.3", features = ["full"] }
 anyhow = "1.0.56"
 once_cell = "1.10.0"
 futures-util = "0.3.21"
